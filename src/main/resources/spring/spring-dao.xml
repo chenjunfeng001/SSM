@@ -51,7 +51,7 @@
 		</rabbit:bindings>
 	</rabbit:topic-exchange>
 
-	<bean name="rabbitmqService" class="com.soecode.lyf.service.impl.RabbitmqService"></bean>
+	<bean name="rabbitmqService" class="com.brh.cjf.service.impl.RabbitmqService"></bean>
 
 	<!-- 配置监听 消费者 -->
 	<rabbit:listener-container connection-factory="connectionFactory" acknowledge="auto">
